@@ -30,20 +30,26 @@ The primary goal of this project is to create an AI-powered travel planning syst
 
 ## 🛠️ Technologies Used
 
-### Backend
-- **Python**: Core programming language
-- **FastAPI/Flask**: Web framework (as indicated by app.py)
-- **OpenAI API**: For natural language processing and understanding
-- **HTTPX**: For making HTTP requests to external services
-- **Python-dotenv**: For environment variable management
+### Core Technologies
+- **Python**: Primary programming language for the application
+- **OpenAI API**: Powers the natural language understanding and processing capabilities
+- **RAG (Retrieval-Augmented Generation)**: For context-aware responses and information retrieval
+- **Vector Database**: For efficient storage and retrieval of travel-related data
 
-### Data Processing
-- **JSON**: For data interchange
-- **Environment Variables**: For secure configuration
+### API Integration
+- **HTTPX**: Modern HTTP client for making API requests to external services
+- **Google Generative AI**: For advanced AI capabilities and content generation
+- **Weather API**: For fetching and analyzing weather data (as indicated by weather service files)
+
+### Data Management
+- **JSON**: For structured data interchange and configuration
+- **Python-dotenv**: For secure environment variable management
+- **ChromaDB**: Vector database for storing and retrieving contextual information
 
 ### Development Tools
-- **Git**: Version control
-- **Pip**: Package management
+- **Git**: Version control and collaboration
+- **Pip**: Python package management
+- **Environment Variables**: For secure configuration management
 
 ## 🚀 Getting Started
 
